@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &776265454533339397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776265454533339399}
+  - component: {fileID: 776265454533339396}
+  m_Layer: 0
+  m_Name: StickerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776265454533339399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776265454533339397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.02, z: -3.959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776265454533339396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776265454533339397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2112df2844fca4a85afc5c28784f0416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerCount: 0
+  creationMode: 0
+  selectionMode: 0
+  pointerSpawnMode: 0
+  isPreviewing: 0
+  isTaskInProgress: 0
+  currentTask: 0
+  stickerPrefab: {fileID: 5846490214988376929, guid: dd8dc6c984cb241ff8144213f0ecdad2, type: 3}
+  selectedTexture: {fileID: 0}
+  stickerTextures: []
+  peelBrushSize: 128
+  peelBackgroundColor: {r: 0, g: 0, b: 0, a: 0.7490196}
